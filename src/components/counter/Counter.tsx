@@ -1,11 +1,12 @@
-import { defineComponent, ref, withModifiers } from "vue";
+import { defineComponent, ref, render, withModifiers } from "vue";
 import style from "./Counter.module.css";
-const Test = defineComponent({
+
+const Counter = defineComponent({
   props: {
     count: {
       type: Number,
       required: true,
-      default: 0,
+      default: 10,
     },
   },
   setup(props) {
@@ -14,7 +15,6 @@ const Test = defineComponent({
     const inc = () => {
       count.value++;
     };
-
     return () => (
       <section class={style.counter}>
         <p>{count.value}</p>
@@ -24,4 +24,4 @@ const Test = defineComponent({
   },
 });
 
-export default Test;
+export default Counter;
