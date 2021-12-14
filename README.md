@@ -1,11 +1,26 @@
-# Vue 3 + Typescript + Vite
+# Vue 3 + Typescript + Vite + Storybook(WebPack) + TSX
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template should help get you started developing with Vue 3 and Typescript in Vite. Using vite plugin for Vue with JSX, files can be exported in .TSX format
 
 ## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [VSCode](https://code.visualstudio.com/)
 
-## Type Support For `.vue` Imports in TS
+## Using Storybook to display components
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+- [Storybook for Vue](https://storybook.js.org/docs/vue/get-started/introduction)
+
+The solutions is meant to act as a template for building design-systems using Vue3 with TSX support.
+Right now it is a bare-bone template with no testing support and some types might break.
+
+Checklist:
+-[] Add better type support
+-[] Add support for tesing components
+  -[] Vue Components
+  -[] Storybook Components
+-[] Support for all CSS preprocessors
+-[] Better documentation
+-[] Support to publish as a package (npm & yarn)
+
+
+Note: please feel free to add new features to the list
