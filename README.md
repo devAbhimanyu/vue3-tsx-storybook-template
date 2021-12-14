@@ -14,13 +14,13 @@ The solutions is meant to act as a template for building design-systems using Vu
 Right now it is a bare-bone template with no testing support and some types might break.
 
 Checklist:
--[] Add better type support
--[] Add support for tesing components
-  -[] Vue Components
-  -[] Storybook Components
--[] Support for all CSS preprocessors
--[] Better documentation
--[] Support to publish as a package (npm & yarn)
+-[ ] Add better type support
+-[ ] Add support for tesing components
+  -[ ] Vue Components
+  -[ ] Storybook Components
+-[ ] Support for all CSS preprocessors
+-[ ] Better documentation
+-[ ] Support to publish as a package (npm & yarn)
 
 
 Note: please feel free to add new features to the list
