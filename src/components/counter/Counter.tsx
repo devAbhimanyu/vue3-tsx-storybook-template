@@ -1,5 +1,5 @@
 import { defineComponent, ref, render, withModifiers } from "vue";
-import style from "./Counter.module.css";
+import style from "./Counter.module.scss";
 
 const Counter = defineComponent({
   props: {
